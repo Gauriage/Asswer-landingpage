@@ -1,0 +1,1 @@
+$('[data-typer-targets]').typer()
