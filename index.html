@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <link href='img/favicon_asswer.png' rel='icon' type='image/png'>
     <title>Asswer</title>
 
     <!-- Bootstrap core CSS -->
@@ -32,7 +32,14 @@
 </head>
 
 <body>
-
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=585504471478885";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -162,7 +169,7 @@
 
                     <h2 class="section-heading">Follow your ass all around the world
                         <br></h2>
-                    <p class="lead">See where your ass have been sent all over the world and how many times it has been seen by people</a>.</p>
+                    <p class="lead">See where your ass has been sent all over the world and how many times it has been seen by people</a>.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="" alt="">
@@ -181,46 +188,20 @@
     </div>
     <!-- /.content-section-a -->
 
-    <div class="banner">
-
-        <div class="container">
-
-            <div class="center">
-                <div class="col-lg-6">
-                    <h2>Follow ass on Twitter</h2>
-                </div>
-                <div class="col-lg-6">
-
-                        <li><a href="https://twitter.com/Asswerme" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.banner -->
-
     <footer>
-        <div class="container">
+        <div class="container social-banner">
             <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li><a href="#home">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="#about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="#services">Services</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Asswer 2014. All Rights Reserved</p>
+                <div class="col-lg-2">
+                    <a href="https://twitter.com/asswerme" class="twitter-follow-button" data-show-count="false">Follow @asswerme</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+                    </script>
+                </div>
+                <div class="col-lg-2">
+                    <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.asswer.me&amp;width&amp;layout=button&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=35&amp;appId=585504471478885" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:35px;" allowTransparency="true"></iframe>
+                </div>
+                <div class="col-lg-2">
+                </div>
+                <div class="col-lg-6">
                 </div>
             </div>
         </div>
