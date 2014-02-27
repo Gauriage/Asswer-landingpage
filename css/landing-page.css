@@ -33,6 +33,9 @@ body, h1, h2, h3, h4, h5, h6 {
 .image_intro {
 	padding-top: 40px;
 }
+.img-responsive {
+	max-width: 80%;
+}
 
 .intro-header {
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
@@ -44,7 +47,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .intro-message {
 	position: relative;
-	text-align: left;
+	text-align: center;
 	padding-top: 20%;
 	padding-bottom: 20%;
 }
