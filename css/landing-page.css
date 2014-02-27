@@ -18,6 +18,11 @@ body, h1, h2, h3, h4, h5, h6 {
 .inscription {
 	padding-top: 100px;
 }
+
+.padding-off {
+	padding-top: 0px
+}
+
 .navbar {
 	background-color: #0AAF70;
 	border-bottom: none;
