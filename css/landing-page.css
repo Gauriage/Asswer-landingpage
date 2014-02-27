@@ -33,8 +33,12 @@ body, h1, h2, h3, h4, h5, h6 {
 .image_intro {
 	padding-top: 40px;
 }
-.img-responsive {
+.img-iphone {
 	max-width: 80%;
+}
+.twitter-follow {
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .intro-header {
