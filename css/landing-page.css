@@ -9,8 +9,8 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .logo {
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 	float: middle;
 	text-align: left;
 }
