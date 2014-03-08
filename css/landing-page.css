@@ -41,8 +41,9 @@ body, h1, h2, h3, h4, h5, h6 {
 .img-iphone {
 	max-width: 80%;
 }
-.twitter-follow {
+.nav-social {
 	padding-top: 15px;
+	padding-right: 15px;
 	padding-bottom: 15px;
 }
 
@@ -153,7 +154,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .map {
 	padding-top: 50px
-}	
+}
 
 @media (max-width: 1199px) {
 	ul.banner-social-buttons {
